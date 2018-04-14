@@ -1,6 +1,5 @@
 package com.hiramine.displaypreferencevalueonrightside;
 
-import android.content.SharedPreferences;
 import android.preference.PreferenceFragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
