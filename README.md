@@ -6,7 +6,7 @@ Preference値を右側に表示する方法。
 - onBindView関数をオーバーライドし、textView.setText関数で、TextViewにPreference値を設定する。
 
 ## Screenshots : スクリーンショット
-<img src="screenshots/Screenshot_01.png" width="256" alt="Screenshot"/><img src="screenshots/Screenshot_02.png" width="256" alt="Screenshot"/><img src="screenshots/Screenshot_03.png" width="256" alt="Screenshot"/><img src="screenshots/Screenshot_04.png" width="256" alt="Screenshot"/><img src="screenshots/Screenshot_05.png" width="256" alt="Screenshot"/><img src="screenshots/Screenshot_06.png" width="256" alt="Screenshot"/><img src="screenshots/Screenshot_07.png" width="256" alt="Screenshot"/>
+<img src="screenshots/Screenshot_01.png" width="256" alt="Screenshot"/> <img src="screenshots/Screenshot_02.png" width="256" alt="Screenshot"/> <img src="screenshots/Screenshot_03.png" width="256" alt="Screenshot"/> <img src="screenshots/Screenshot_04.png" width="256" alt="Screenshot"/> <img src="screenshots/Screenshot_05.png" width="256" alt="Screenshot"/> <img src="screenshots/Screenshot_06.png" width="256" alt="Screenshot"/> <img src="screenshots/Screenshot_07.png" width="256" alt="Screenshot"/>
 
 ## Requirements : 必要条件、依存関係
 - Android Studio 2.3.3
