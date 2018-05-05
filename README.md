@@ -1,5 +1,5 @@
 # DisplayPreferenceValueOnRightSide
-Preference値を右側に表示する方法。
+Preference値を設定項目の右側に表示する方法。
 
 要点としては、
 - XXXXPreferenceクラスの派生クラスを作成する。
