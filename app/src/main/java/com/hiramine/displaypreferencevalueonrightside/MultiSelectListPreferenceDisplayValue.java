@@ -34,7 +34,7 @@ public class MultiSelectListPreferenceDisplayValue extends MultiSelectListPrefer
 	@Override
 	protected View onCreateView( ViewGroup parent )
 	{
-		setWidgetLayoutResource( R.layout.widget_preferencevalue );
+		setWidgetLayoutResource( R.layout.widget_valuetext );
 		return super.onCreateView( parent );
 	}
 
@@ -42,7 +42,7 @@ public class MultiSelectListPreferenceDisplayValue extends MultiSelectListPrefer
 	protected void onBindView( View view )
 	{
 		super.onBindView( view );
-		TextView textView = (TextView)view.findViewById( R.id.textview_preferencevalue );
+		TextView textView = (TextView)view.findViewById( R.id.textview_value );
 
 		Set<String>    setstrValue = getValues();
 		CharSequence[] aEntry      = getEntries();
@@ -59,11 +59,11 @@ public class MultiSelectListPreferenceDisplayValue extends MultiSelectListPrefer
 		textView.setText( strText );
 	}
 
-	// 複数項目選択ダイアログの結果を、TextViewに反映されるために、notifyChanged() が必要。
+	// プリファレンス変更結果を、呼び出し元の画面に反映されるために、notifyChanged() が必要。
 	// （EditTextPreferenceDisplayValue、DisplayValueListPreferenceは、
 	// 　親クラスのsetValues()にnotifyChanged()呼び出しがあるので、不要）
 	@Override
-	public void setValues(Set<String> values)
+	public void setValues( Set<String> values )
 	{
 		super.setValues( values );
 

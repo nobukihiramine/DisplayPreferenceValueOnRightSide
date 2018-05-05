@@ -32,7 +32,7 @@ public class EditTextPreferenceDisplayValue extends EditTextPreference
 	@Override
 	protected View onCreateView( ViewGroup parent )
 	{
-		setWidgetLayoutResource( R.layout.widget_preferencevalue );
+		setWidgetLayoutResource( R.layout.widget_valuetext );
 		return super.onCreateView( parent );
 	}
 
@@ -40,15 +40,7 @@ public class EditTextPreferenceDisplayValue extends EditTextPreference
 	protected void onBindView( View view )
 	{
 		super.onBindView( view );
-		TextView textView = (TextView)view.findViewById( R.id.textview_preferencevalue );
-
-		if( getTitle().toString().toLowerCase().contains( "password" ) )
-		{
-			textView.setText( "******" );
-		}
-		else
-		{
-			textView.setText( getText() );
-		}
+		TextView textView = (TextView)view.findViewById( R.id.textview_value );
+		textView.setText( getText() );
 	}
 }
