@@ -29,7 +29,10 @@ public class MyPreferenceActivity extends AppCompatActivity
 
 		// アクションバーに前画面に戻る機能をつける
 		ActionBar actionBar = getSupportActionBar();
-		actionBar.setDisplayHomeAsUpEnabled( true );
+		if( null !=  actionBar)
+		{
+			actionBar.setDisplayHomeAsUpEnabled( true );
+		}
 	}
 
 	@Override

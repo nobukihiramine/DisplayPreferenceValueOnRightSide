@@ -7,24 +7,24 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class DisplayValueEditTextPreference extends EditTextPreference
+public class EditTextPreferenceDisplayValue extends EditTextPreference
 {
-	public DisplayValueEditTextPreference( Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes )
+	public EditTextPreferenceDisplayValue( Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes )
 	{
 		super( context, attrs, defStyleAttr, defStyleRes );
 	}
 
-	public DisplayValueEditTextPreference( Context context, AttributeSet attrs, int defStyleAttr )
+	public EditTextPreferenceDisplayValue( Context context, AttributeSet attrs, int defStyleAttr )
 	{
 		super( context, attrs, defStyleAttr );
 	}
 
-	public DisplayValueEditTextPreference( Context context, AttributeSet attrs )
+	public EditTextPreferenceDisplayValue( Context context, AttributeSet attrs )
 	{
 		super( context, attrs );
 	}
 
-	public DisplayValueEditTextPreference( Context context )
+	public EditTextPreferenceDisplayValue( Context context )
 	{
 		super( context );
 	}

@@ -7,24 +7,24 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class DisplayValueListPreference extends ListPreference
+public class ListPreferenceDisplayValue extends ListPreference
 {
-	public DisplayValueListPreference( Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes )
+	public ListPreferenceDisplayValue( Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes )
 	{
 		super( context, attrs, defStyleAttr, defStyleRes );
 	}
 
-	public DisplayValueListPreference( Context context, AttributeSet attrs, int defStyleAttr )
+	public ListPreferenceDisplayValue( Context context, AttributeSet attrs, int defStyleAttr )
 	{
 		super( context, attrs, defStyleAttr );
 	}
 
-	public DisplayValueListPreference( Context context, AttributeSet attrs )
+	public ListPreferenceDisplayValue( Context context, AttributeSet attrs )
 	{
 		super( context, attrs );
 	}
 
-	public DisplayValueListPreference( Context context )
+	public ListPreferenceDisplayValue( Context context )
 	{
 		super( context );
 	}

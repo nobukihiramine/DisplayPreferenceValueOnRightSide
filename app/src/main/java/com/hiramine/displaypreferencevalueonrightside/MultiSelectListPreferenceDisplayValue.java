@@ -9,24 +9,24 @@ import android.widget.TextView;
 
 import java.util.Set;
 
-public class DisplayValueMultiSelectListPreference extends MultiSelectListPreference
+public class MultiSelectListPreferenceDisplayValue extends MultiSelectListPreference
 {
-	public DisplayValueMultiSelectListPreference( Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes )
+	public MultiSelectListPreferenceDisplayValue( Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes )
 	{
 		super( context, attrs, defStyleAttr, defStyleRes );
 	}
 
-	public DisplayValueMultiSelectListPreference( Context context, AttributeSet attrs, int defStyleAttr )
+	public MultiSelectListPreferenceDisplayValue( Context context, AttributeSet attrs, int defStyleAttr )
 	{
 		super( context, attrs, defStyleAttr );
 	}
 
-	public DisplayValueMultiSelectListPreference( Context context, AttributeSet attrs )
+	public MultiSelectListPreferenceDisplayValue( Context context, AttributeSet attrs )
 	{
 		super( context, attrs );
 	}
 
-	public DisplayValueMultiSelectListPreference( Context context )
+	public MultiSelectListPreferenceDisplayValue( Context context )
 	{
 		super( context );
 	}
@@ -60,7 +60,7 @@ public class DisplayValueMultiSelectListPreference extends MultiSelectListPrefer
 	}
 
 	// 複数項目選択ダイアログの結果を、TextViewに反映されるために、notifyChanged() が必要。
-	// （DisplayValueEditTextPreference、DisplayValueListPreferenceは、
+	// （EditTextPreferenceDisplayValue、DisplayValueListPreferenceは、
 	// 　親クラスのsetValues()にnotifyChanged()呼び出しがあるので、不要）
 	@Override
 	public void setValues(Set<String> values)

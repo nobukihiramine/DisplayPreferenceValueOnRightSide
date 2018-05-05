@@ -11,21 +11,21 @@
         android:key="on_off_preference_2"
         android:summary="summary"
         android:title="Switch preference"/>
-    <com.hiramine.displaypreferencevalueonrightside.DisplayValueEditTextPreference
+    <com.hiramine.displaypreferencevalueonrightside.EditTextPreferenceDisplayValue
         android:defaultValue="@string/xyz"
         android:key="text_preference"
         android:selectAllOnFocus="true"
         android:singleLine="true"
         android:summary="summary"
         android:title="Edit text preference"/>
-    <com.hiramine.displaypreferencevalueonrightside.DisplayValueListPreference
+    <com.hiramine.displaypreferencevalueonrightside.ListPreferenceDisplayValue
         android:defaultValue="@string/str2"
         android:entries="@array/entries_123"
         android:entryValues="@array/values_123"
         android:key="list_preference"
         android:summary="summery"
         android:title="List preference"/>
-    <com.hiramine.displaypreferencevalueonrightside.DisplayValueMultiSelectListPreference
+    <com.hiramine.displaypreferencevalueonrightside.MultiSelectListPreferenceDisplayValue
         android:defaultValue="@array/values_empty"
         android:entries="@array/entries_abc"
         android:entryValues="@array/values_abc"
